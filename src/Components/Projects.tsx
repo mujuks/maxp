@@ -9,55 +9,69 @@ export default function Projects(){
 const projects=[
 
 
-{
-title:"RYSA Community Website",
-image:"/rysa.jpg",
-description:
-"A community platform showcasing sports, education programs, photography, coding initiatives and community development projects.",
-technologies:[
-"React",
-"Tailwind CSS",
-"JavaScript"
-],
-link:"#"
-},
+// {
+// title:"RYSA Community Website",
+// image:"/rysa.jpg",
+// description:
+// "A community platform showcasing sports, education programs, photography, coding initiatives and community development projects.",
+// technologies:[
+// "React",
+// "Tailwind CSS",
+// "JavaScript"
+// ],
+// link:"#"
+// },
 
 
 
 {
 title:"Local History & Culture Exploration Platform",
-image:"/culture.jpg",
+image:"/pst.png",
 description:
 "A digital platform designed to preserve and explore local history, culture and community stories.",
 technologies:[
 "React",
-"PHP",
-"MySQL"
+"TypeScript",
+"Tailwind CSS"
 ],
-link:"#"
+link:"https://pst-topaz.vercel.app/"
 },
 
 
 
 {
-title:"Political Opinion Poll System",
-image:"/poll.jpg",
+title:"Political Donation System",
+image:"/donation.png",
 description:
-"A web-based opinion polling system with authentication and backend functionality.",
+"A web-based political donation system .",
 technologies:[
-"HTML",
-"CSS",
-"PHP",
-"MySQL"
+"React",
+"Tailwind CSS",
+"TypeScript",
 ],
-link:"#"
+link:"https://dr-ben-guf2.vercel.app/"
+},
+
+
+{
+title:"Shamba Records System",
+image:"/shambarec.png",
+description:
+"A web-based Farm Records System for tracking crops and fields for farmers managing agents.",
+technologies:[
+"React Js",
+"Tailwind CSS",
+"JavaScript",
+"PostgreSQL"
+],
+link:"https://project-eight-drab-17.vercel.app/"
 },
 
 
 
 {
 title:"Personal Portfolio Website",
-image:"/portfolio.jpg",
+image:"/portfolio.png",
 description:
 "A modern developer portfolio website showcasing my skills, projects and professional journey.",
 technologies:[
@@ -65,8 +79,23 @@ technologies:[
 "Tailwind CSS",
 "TypeScript"
 ],
-link:"#"
-}
+link:"https://maxp-delta.vercel.app/"
+},
+
+{
+title:"Tamasha Cultural Platform",
+image:"/tamasha.png",
+description:
+"A web-based cultural platform for community engagement.",
+technologies:[
+"HTML",
+"CSS",
+"Tailwind CSS",
+"MySQL"
+],
+link:"https://tamasha-ten.vercel.app/"
+},
+
 
 
 ];
