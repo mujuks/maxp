@@ -65,12 +65,12 @@ export default function Projects() {
   ];
 
   const gallery = [
-    { image: "/photo1.jpg", title: "RYSA Sports Event" },
-    { image: "/photo2.jpg", title: "Community Activity" },
-    { image: "/photo3.jpg", title: "Photography Work" },
-    { image: "/photo4.jpg", title: "Youth Empowerment Program" },
-    { image: "/photo5.jpg", title: "Media Production" },
-    { image: "/photo6.jpg", title: "Community Storytelling" },
+    { image: "public/Sport.JPG", title: "RYSA Sports Event" },
+    { image: "public/CommunityACT.JPG", title: "Community Activity" },
+    { image: "public/PhotographyW.jpg", title: "Photography Work" },
+    { image: "public/YTHE.jpg", title: "Youth Empowerment Program" },
+    { image: "public/MediaP.JPG", title: "Media Production" },
+    { image: "public/CommunitySt.JPG", title: "Community Storytelling" },
   ];
 
 
