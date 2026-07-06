@@ -65,14 +65,13 @@ export default function Projects() {
   ];
 
   const gallery = [
-    { image: "/public/Sport.JPG", title: "RYSA Sports Event" },
-    { image: "/public/CommunityACT.JPG", title: "Community Activity" },
-    { image: "/public/PhotographyW.jpg", title: "Photography Work" },
-    { image: "/public/YTHE.jpg", title: "Youth Empowerment Program" },
-    { image: "/public/MediaP.JPG", title: "Media Production" },
-    { image: "/public/CommunitySt.JPG", title: "Community Storytelling" },
+    { image: "/Sport.JPG", title: "RYSA Sports Event" },
+    { image: "/CommunityACT.JPG", title: "Community Activity" },
+    { image: "/PhotographyW.jpg", title: "Photography Work" },
+    { image: "/YTHE.jpg", title: "Youth Empowerment Program" },
+    { image: "/MediaP.JPG", title: "Media Production" },
+    { image: "/CommunitySt.JPG", title: "Community Storytelling" },
   ];
-
 
   const stagger = {
     visible: {
@@ -231,7 +230,7 @@ export default function Projects() {
                 className="group relative bg-white border border-blue-100 rounded-3xl overflow-hidden hover:border-blue-300 hover:shadow-2xl hover:shadow-blue-600/10 transition-all duration-300"
               >
                 {/* Image */}
-                <div className="relative overflow-hidden aspect-16/10">
+                <div className="relative overflow-hidden aspect-video">
                   <motion.img
                     src={project.image}
                     alt={project.title}
