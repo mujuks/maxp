@@ -158,7 +158,7 @@ export default function Home() {
                 className="flex flex-wrap items-center gap-3 pt-2"
               >
                 <a
-                  href="#projects"
+                  href="/projects"
                   className="group inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-600/25 transition-all duration-300 hover:bg-blue-700 hover:gap-3 hover:shadow-xl hover:shadow-blue-600/30"
                 >
                   View selected work
@@ -166,7 +166,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="group inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white px-6 py-3 text-sm font-semibold text-blue-700 transition-all duration-300 hover:border-blue-400 hover:bg-blue-50"
                 >
                   Get in touch
