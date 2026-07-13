@@ -76,9 +76,9 @@ export default function Contact() {
     }
 
     // Replace these with your actual EmailJS keys
-    const SERVICE_ID = "service_snzbhv7";
-    const TEMPLATE_ID = "template_si9ds6m";
-    const PUBLIC_KEY = "4OQ7vS1TPfChZ6wJE";
+    const SERVICE_ID = "service_74g6gvp";
+    const TEMPLATE_ID = "template_qznib3v";
+    const PUBLIC_KEY = "O-eksOMLL0YXRGVsg";
 
     try {
       if (formRef.current) {
