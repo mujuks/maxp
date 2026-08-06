@@ -6,13 +6,16 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
+import ScrollToTop from "./Components/utils/ScrollTop";
+
 
 
 function App() {
   return (
     <BrowserRouter>
-
+    <ScrollToTop />
       <Routes>
+        
 
         <Route path="/"  element={<Home />} />
         <Route path="/about" element={<About />} />
