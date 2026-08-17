@@ -51,6 +51,16 @@ export default function Footer() {
     { icon: Users, label: "Community Builder" },
   ];
 
+  const stagger = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
 
   return (
     <footer className="relative bg-linear-to-br from-blue-950 via-blue-900 to-blue-950 text-white overflow-hidden mt-20">
@@ -79,7 +89,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-12 gap-12 mb-12">
           {/* BRAND SECTION */}
           <motion.div
-           
+            variants={stagger}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -140,7 +150,7 @@ export default function Footer() {
 
           {/* QUICK LINKS */}
           <motion.div
-            
+            variants={stagger}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -170,7 +180,7 @@ export default function Footer() {
 
           {/* CONTACT INFO */}
           <motion.div
-            
+            variants={stagger}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}

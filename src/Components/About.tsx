@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
   Code2,
@@ -156,13 +157,13 @@ export default function About() {
               </motion.p>
 
               <motion.div className="flex flex-wrap items-center gap-3 pt-2">
-                <a
-                  href="#contact"
+                <Link
+                  to="/contact"
                   className="group inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-600/25 transition-all duration-300 hover:bg-blue-700 hover:gap-3 hover:shadow-xl hover:shadow-blue-600/30"
                 >
                   Get in touch
                   <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-                </a>
+                </Link>
                 <a
                   href="#roles"
                   className="group inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white px-6 py-3 text-sm font-semibold text-blue-700 transition-all duration-300 hover:border-blue-400 hover:bg-blue-50"
@@ -537,13 +538,13 @@ export default function About() {
               </p>
 
               <div className="flex flex-wrap items-center justify-center gap-3">
-                <a
-                  href="#contact"
+                <Link
+                  to="/contact"
                   className="group inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-blue-700 transition-all duration-300 hover:bg-emerald-50 hover:text-emerald-700 hover:gap-3"
                 >
                   Start a conversation
                   <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-                </a>
+                </Link>
                 <a
                   href="/max-CV.pdf"
                   download

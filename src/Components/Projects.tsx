@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
   ArrowUpRight,
@@ -409,13 +410,13 @@ export default function Projects() {
               </p>
 
               <div className="flex flex-wrap items-center justify-center gap-3">
-                <a
-                  href="#contact"
+                <Link
+                  to="/contact"
                   className="group inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-blue-700 transition-all duration-300 hover:bg-emerald-50 hover:text-emerald-700 hover:gap-3"
                 >
                   Start a conversation
                   <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-                </a>
+                </Link>
                 <a
                   href="/max-CV.pdf"
                   download
